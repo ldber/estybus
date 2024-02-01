@@ -7,7 +7,6 @@ clc; clear all; close all;
 load Pinj.mat;
 load Qinj.mat;
 load Vrms.mat;
-load Ytrue.mat;
 
 % Guess Angles
 [Nsample, Nbus] = size(Vrms);
